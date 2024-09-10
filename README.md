@@ -28,7 +28,13 @@ To get started with this project, follow the instructions below:
 conda create -n trading_bot python=3.10
 conda activate trading_bot
 
-### Setup
+conda create -n trading_bot python=3.10
+conda activate trading_bot
+
+
 MLTradingBot by nicknochnack ((https://github.com/nicknochnack/MLTradingBot)).
+### Author
+👨‍💻 Chaima Askri
+MLTradingBot by nicknochnack (https://github.com/nicknochnack/MLTradingBot).
 ### Author
 👨‍💻 Chaima Askri
