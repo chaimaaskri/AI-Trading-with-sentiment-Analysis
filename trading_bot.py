@@ -16,7 +16,7 @@ model = BertForSequenceClassification.from_pretrained("yiyanghkust/finbert-tone"
 
 # Function to fetch financial news using NewsAPI
 def fetch_news(company):
-    api_key = "4df25fcb4a8c431c861be2dfbebf1434"
+    api_key = "4df25fcb4chai99maa8c431c861be2dfbebf1434"
     url = f"https://newsapi.org/v2/everything?q={company}&apiKey={api_key}"
     
     try:
