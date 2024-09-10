@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Bot Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .section { margin-bottom: 30px; }
+        .chart-container { margin-bottom: 20px; }
+        .sentiment-results, .trade-recommendations { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Trading Bot Dashboard</h1>
+        
+        <div class="section chart-container">
+            <h2>Stock Price and Moving Averages</h2>
+            {{ plot|safe }}
+        </div>
+        
+        <div class="section sentiment-results">
+            <h2>Sentiment Analysis Results</h2>
+            {% if results %}
+                <ul>
+                {% for result in results %}
+                    <li>
+                        <strong>Title:</strong> {{ result.title }} <br>
+                        <strong>Sentiment:</strong> {{ result.sentiment }} <br>
+                        <strong>Confidence:</strong> {{ result.confidence|round(2) }}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% else %}
+                <p>No news articles available.</p>
+            {% endif %}
+        </div>
+        
+        <div class="section trade-recommendations">
+            <h2>Trade Recommendations</h2>
+            {% if recommendations %}
+                <ul>
+                {% for rec in recommendations %}
+                    <li>
+                        <strong>Date:</strong> {{ rec.date }} <br>
+                        <strong>Price:</strong> {{ rec.price }} <br>
+                        <strong>Decision:</strong> {{ rec.decision }}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% else %}
+                <p>No trade recommendations available.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
