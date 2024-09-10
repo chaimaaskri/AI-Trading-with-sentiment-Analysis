@@ -18,7 +18,7 @@ To get started with this project, follow the instructions below:
 
 ### Prerequisites
 
-- Python 3.10 or laterM
+- Python 3.10 or later
 - Virtual environment manager (e.g., conda or venv)
 
 ### Setup
