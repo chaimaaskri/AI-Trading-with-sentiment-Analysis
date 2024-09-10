@@ -12,10 +12,6 @@ Our trading bot analyzes live financial news and historical stock data to make t
 - **Technical Analysis:** Calculate moving averages and plot them alongside historical stock prices.
 - **Trade Recommendations:** Generate trading recommendations based on sentiment and moving averages.
 
-## Live Demo
-
-Check out the live demo [here](#).
-
 ## Getting Started
 
 To get started with this project, follow the instructions below:
