@@ -18,7 +18,7 @@ To get started with this project, follow the instructions below:
 
 ### Prerequisites
 
-- Python 3.10 or later
+- Python 3.10 or laterM
 - Virtual environment manager (e.g., conda or venv)
 
 ### Setup
@@ -27,13 +27,15 @@ To get started with this project, follow the instructions below:
 ```bash
 conda create -n trading_bot python=3.10
 conda activate trading_bot
-
 conda create -n trading_bot python=3.10
 conda activate trading_bot
+```
 
-refrence
-MLTradingBot by nicknochnack ((https://github.com/nicknochnack/MLTradingBot)).
+### References
 
-Author
-👨‍💻 Chaima Askri
+- [MLTradingBot by nicknochnack](https://github.com/nicknochnack/MLTradingBot)
+
+## Author
+
+👨‍💻 Chaima Askri  
 📅 Version 1.0
