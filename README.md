@@ -31,9 +31,7 @@ conda create -n trading_bot python=3.10
 conda activate trading_bot
 ```
 
-### References
 
-- [MLTradingBot by nicknochnack](https://github.com/nicknochnack/MLTradingBot)
 
 ## Author
 
