@@ -1,2 +1,2 @@
- API key  Alpha vintage : 
- API key NewsAPI : 
+ API key  Alpha vintage : use your own 
+ API key NewsAPI : use your own 
